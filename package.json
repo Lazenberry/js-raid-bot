@@ -1,0 +1,24 @@
+{
+  "name": "js-discord-bot",
+  "version": "0.0.1",
+  "description": "Raiding Bot",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lazenberry/js-raid-bot.git"
+  },
+  "author": "Lazenberry#",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lazenberry/js-raid-bot/issues"
+  },
+  "homepage": "https://github.com/Lazenberry/js-raid-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "module-alias": "^2.2.3",
+    "nodemon": "^3.1.4"
+  }
+}
