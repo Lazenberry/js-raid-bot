@@ -4,7 +4,8 @@
   "description": "Raiding Bot",
   "main": "entry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon entry.js",
+    "deploy-commands": "node entry.js true"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,11 @@
   "homepage": "https://github.com/Lazenberry/js-raid-bot#readme",
   "dependencies": {
     "axios": "^1.7.4",
+    "dayjs": "^1.11.12",
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
     "module-alias": "^2.2.3",
+    "moment-timezone": "^0.5.45",
     "nodemon": "^3.1.4"
   }
 }
