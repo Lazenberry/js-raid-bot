@@ -17,7 +17,6 @@ try {
         console.log(error);
     }
 
-
     //!Discord Client
 
     const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');

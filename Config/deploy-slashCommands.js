@@ -41,8 +41,8 @@ const rest = new REST().setToken(process.env.bot_token);
 
         //!Global Slash Command Deployment
         // const data = await rest.put(
-        //     Routes.applicationCommands(clientId),
-        //     { body: commands },
+        //     Routes.applicationCommands(process.env.appID),
+        //     { body: [] },
         // );
         //!Specific Slash Command Deployment
         const data = await rest.put(
